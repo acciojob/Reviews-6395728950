@@ -46,5 +46,5 @@ The task is to create a react based application which Renders the reviews using 
 - for the review render one review at a time and order it as given above. the container containing the reviews should have `className` as **review**.
 - The review container should contain the `author` , `job` ,`info` ,`person-img` as `className` for name , job , text and image.
 - There should be a previous and a next button with `className` as **prev-btn** and **next-btn**.
-- apart from a next and previous button it should have a button which randomly shows a review and avoids the current index as the next review , the button should have a `className` as **random-btn** and have the text as **surprise me**.
+- apart from a next and previous button it should have a button which randomly shows a review and avoids the current curridx as the next review , the button should have a `className` as **random-btn** and have the text as **surprise me**.
 - For rendering the name of author the tag must have an id as **author-`id`** where id reflects the id of the review given in the data above.
