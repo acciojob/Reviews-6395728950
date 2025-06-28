@@ -45,6 +45,7 @@ const App = () => {
     <div>
 
         <Review reviews={reviews}></Review>
+        
     </div>
   )
 }

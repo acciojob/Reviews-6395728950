@@ -1,11 +1,11 @@
 const path = require("path");
 const HtmlWebpackPlugin= require('html-webpack-plugin');
 module.exports = {
-    entry: './src/curridx.js',
+    entry: './src/index.js',
 
     output: {
         path: path.join(__dirname,"/dist"),
-        filename: "curridx_bundle.js",
+        filename: "index_bundle.js",
     },
     module:{
         rules: [
@@ -31,7 +31,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: "./src/curridx.html"
+            template: "./src/index.html"
         })
     ],
     resolve: {
