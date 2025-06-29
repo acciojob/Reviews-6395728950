@@ -27,9 +27,9 @@ const Review = (props) => {
     const { id, name, text, image, job } = reviews[index];
 
     return (
-        <div>
+        <div className='review'>
             <section className='container'>
-                <h1 id='review-heading'>Our Review</h1>
+                <h1 id='review-heading'>Our Reviews</h1>
             </section>
 
             <main>
