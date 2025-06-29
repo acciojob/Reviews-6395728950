@@ -44,7 +44,7 @@ const App = () => {
 
     <div>
 
-        <Review reviews={reviews}></Review>
+        <Review reviews={reviews} ></Review>
         
     </div>
   )

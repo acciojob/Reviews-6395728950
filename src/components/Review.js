@@ -33,7 +33,7 @@ const Review = (props) => {
             </section>
 
             <main>
-                <p className='author' author-id={id}>{name}</p>
+                <p className='author' id={`author-${id}`}>{name}</p>
                 <p className='job'>{job}</p>
                 <p className='info'>{text}</p>
                 <img src={image} className='person-img' alt={name} />
